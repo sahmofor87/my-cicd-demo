@@ -1,1 +1,1 @@
-Hello GitHub Actions CI/CD
+Hello from CI/CD pipeline
