@@ -1,5 +1,1 @@
-function hello(name) {
-  console.log("Hello " + name);
-}
-
-hello("Ignatius");
+console.log("Hello from CI/CD pipeline demo!");
