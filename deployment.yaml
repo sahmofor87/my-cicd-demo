@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-cicd-demo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-cicd-demo
+  template:
+    metadata:
+      labels:
+        app: my-cicd-demo
+    spec:
+      containers:
+      - name: my-cicd-demo
+        image: trialgctmla.jfrog.io/docker-local/my-cicd-demo:v1
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 3000
