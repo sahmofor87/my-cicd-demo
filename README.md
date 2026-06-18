@@ -1,6 +1,8 @@
 # My CI/CD Demo
 
+
 # My CI/CD Demo
+
 
 # Prerequisites
 
@@ -775,4 +777,7 @@ A fully automated DevSecOps pipeline where a simple `git push` performs:
 
 with no manual deployment steps required.
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3434084 (Add full DevSecOps pipeline with Kubernetes deployment and READme file)
